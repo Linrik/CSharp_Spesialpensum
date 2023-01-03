@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectExam", "ProjectExam\ProjectExam.csproj", "{1C3209F2-A727-45B2-8268-FD93552D450E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent", "Advent\Advent.csproj", "{51D6F702-96CF-4177-AF49-14969792BECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkBench", "WorkBench\WorkBench.csproj", "{D629833B-238C-45AE-8F4C-96C0AF578707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C3209F2-A727-45B2-8268-FD93552D450E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3209F2-A727-45B2-8268-FD93552D450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3209F2-A727-45B2-8268-FD93552D450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3209F2-A727-45B2-8268-FD93552D450E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D6F702-96CF-4177-AF49-14969792BECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D6F702-96CF-4177-AF49-14969792BECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D6F702-96CF-4177-AF49-14969792BECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D6F702-96CF-4177-AF49-14969792BECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D629833B-238C-45AE-8F4C-96C0AF578707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D629833B-238C-45AE-8F4C-96C0AF578707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D629833B-238C-45AE-8F4C-96C0AF578707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D629833B-238C-45AE-8F4C-96C0AF578707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99100375-0631-41DF-8712-8EF2A9B532F1}
+	EndGlobalSection
+EndGlobal

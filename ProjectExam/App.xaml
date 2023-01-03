@@ -1,0 +1,40 @@
+﻿<Application x:Class="ProjectExam.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProjectExam"
+             xmlns:viewModel="clr-namespace:ProjectExam.ViewModel"
+             xmlns:view="clr-namespace:ProjectExam.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate x:Key="AddNewStudent">
+            <view:AddNewUser/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModel:MainViewModel}">
+            <view:Student/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ShowStudents">
+            <view:ListOfStudentView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModel:StudentsVM}">
+            <ContentControl Content="{Binding}">
+                <ContentControl.Style>
+                    <Style TargetType="{x:Type ContentControl}">
+                        <Setter Property="ContentTemplate" Value="{StaticResource AddNewStudent}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding View}" Value="AddNewStudent">
+                                <Setter Property="ContentTemplate" Value="{StaticResource AddNewStudent}"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding View}" Value="ShowStudents">
+                                <Setter Property="ContentTemplate" Value="{StaticResource ShowStudents}"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </ContentControl.Style>
+            </ContentControl>
+        </DataTemplate>
+
+    </Application.Resources>
+</Application>

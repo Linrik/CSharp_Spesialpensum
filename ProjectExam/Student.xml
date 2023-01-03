@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student StudentId="123456" FirstName="Henrik" LastName="Lindam" PhoneNumber="98017492" />
+  <Student StudentId="654321" FirstName="Krister" LastName="Iversen" PhoneNumber="98364774" />
+  <Student StudentId="234567" FirstName="Adrian" LastName="Dahl" PhoneNumber="47521895" />
+  <Student StudentId="765432" FirstName="Herman" LastName="Simonsen" PhoneNumber="99125335" />
+  <Student StudentId="345678" FirstName="Olav" LastName="Pålerud" PhoneNumber="98217329" />
+  <Student StudentId="876543" FirstName="Jøran" LastName="Bøsang" PhoneNumber="98467348" />
+  <Student StudentId="456789" FirstName="John" LastName="Ivar" PhoneNumber="96578327" />
+</Students>
